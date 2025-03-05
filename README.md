@@ -23,7 +23,7 @@ If Image is also needed just check the 'need image' option, and that's it image 
 1. **Obtain API Keys:**
     - Get an API key from [Groq](https://console.groq.com/keys).
     - Get an API key from [Hugging Face](https://huggingface.co/settings/tokens).
-    - Update the `.env` file with the obtained keys:
+    - Update the `.toml` file in `.streamlit` directory in yopur project with the obtained keys:
       ```
       GROQ_API_KEY=your_groq_api_key
       HF_TOKEN=your_huggingface_token

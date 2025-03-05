@@ -1,9 +1,8 @@
 from langchain_groq import ChatGroq
-import os
-from dotenv import load_dotenv
+import streamlit as st
 
-load_dotenv()
-llm = ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="gemma2-9b-it")
+GROQ_API_KEY=st.secrets["GROQ_API_KEY"]
+llm = ChatGroq(groq_api_key=GROQ_API_KEY, model_name="gemma2-9b-it")
 
 
 if __name__ == "__main__":  # This is just for testing

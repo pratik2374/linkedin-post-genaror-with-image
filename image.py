@@ -1,12 +1,12 @@
 import streamlit as st
 from huggingface_hub import InferenceClient
-import os
 from dotenv import load_dotenv
 from llm_helper import llm
 
 # Load environment variables
-load_dotenv()
-hf_token = os.getenv("HF_TOKEN")
+import streamlit as st
+hf_token = st.secrets["HF_TOKEN"]
+
 
 # Hugging Face model configurations
 flux = "black-forest-labs/FLUX.1-dev"
