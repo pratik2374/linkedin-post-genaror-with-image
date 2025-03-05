@@ -3,6 +3,8 @@ This tool will analyze posts of a LinkedIn influencer and help them create the n
 
 For example, consider Alex, a LinkedIn influencer who frequently shares insights on technology and leadership. By using this tool, Alex can input their previous LinkedIn posts, and the tool will analyze and extract key topics, language patterns, and post lengths. Alex can then choose specific parameters such as topic, length, and language for their new post. By clicking the Generate button, the tool will create a new post that aligns with Alex's unique writing style, ensuring consistency and engagement with their audience. If Alex wants, this tool can generate a photo according to the post.
 
+**RUN on WEB :** To run this tool and see working you can just [click here](https://linedkinpostgenerate.streamlit.app/) without the need of any technical acspect of installing this repository
+
 ## Working Example
 Generation of post by just selection of topic, length of content and language, post is generated
 <img src="resources/example.png"/>
