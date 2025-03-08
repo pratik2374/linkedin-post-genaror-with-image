@@ -17,6 +17,7 @@ If Image is also needed just check the 'need image' option, and that's it image 
 
 1. Collect LinkedIn posts and identify the main topics, language, and length of each post.
 2. Use the identified topic, language, and length to create a new post. The tool will use some of the previous posts related to the chosen topic, language, and length to help the language model understand the writing style.
+3. Using diffusion model and Hugguging Face inference generated image according to current post
 
 **Note:** The training dataset is sourced from codebasics.co . However, if you prefer, you can manually scrape data or use API methods to web scrape the data using Beautiful Soup.
 
